@@ -1,13 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Travel Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Oxygen\:300,400,700`,
+          // `sans-serif pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      },},
+
+
+
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
