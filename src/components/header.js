@@ -38,7 +38,7 @@ const Header = () => {
 
       <NavBtn>
 
-        <Button primary="true" round="true" to="/trips">Book a Flight</Button>
+        <Button primary="true" round="true" to="/trips">Current Rentals</Button>
 
 
 
